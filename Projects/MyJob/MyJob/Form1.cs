@@ -10,11 +10,12 @@ using System.Windows.Forms;
 
 namespace MyJob
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
-        public Form1()
+        public Login()
         {
             InitializeComponent();
+            
             
         }
 
@@ -28,14 +29,19 @@ namespace MyJob
             else
             {
               int table = DBManagement.login(loginEmailText.Text,loginPasswordText.Text);
-                if (table == 0)
-                    MessageBox.Show("Kullanıcı Bulunamdı");
-                else if(table == 1)
+                if (table == 2)
+                {
+                    Employer empForm = new Employer();
+                    this.Hide();
+                    empForm.Show();   
+                }
+                else if (table == 1)
                 {
                     worker workerForm = new worker();
                     this.Hide();
-                    workerForm.ShowDialog();
+                    workerForm.Show();
                 }
+                
                 
             }
             
@@ -46,10 +52,15 @@ namespace MyJob
         {
             Register registerForm = new Register();
             this.Hide();
-            registerForm.ShowDialog();
+            registerForm.Show();
             
             
 
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            DBManagement.CreateDatabase();
         }
     }
 }

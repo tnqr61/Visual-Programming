@@ -31,6 +31,9 @@
             System.Windows.Forms.Label label1;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Register));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.employerRadioBtn = new System.Windows.Forms.RadioButton();
+            this.employeeRadioBtn = new System.Windows.Forms.RadioButton();
             this.employerRadioButton = new System.Windows.Forms.RadioButton();
             this.employeeRadioButton = new System.Windows.Forms.RadioButton();
             this.label6 = new System.Windows.Forms.Label();
@@ -46,6 +49,7 @@
             this.label2 = new System.Windows.Forms.Label();
             label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -53,7 +57,7 @@
             label1.AutoSize = true;
             label1.BackColor = System.Drawing.Color.Transparent;
             label1.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            label1.Location = new System.Drawing.Point(210, 642);
+            label1.Location = new System.Drawing.Point(233, 654);
             label1.Name = "label1";
             label1.Size = new System.Drawing.Size(220, 24);
             label1.TabIndex = 31;
@@ -62,6 +66,7 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox1.Controls.Add(this.groupBox2);
             this.groupBox1.Controls.Add(this.employerRadioButton);
             this.groupBox1.Controls.Add(this.employeeRadioButton);
             this.groupBox1.Location = new System.Drawing.Point(168, 460);
@@ -71,6 +76,45 @@
             this.groupBox1.Size = new System.Drawing.Size(307, 93);
             this.groupBox1.TabIndex = 28;
             this.groupBox1.TabStop = false;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox2.Controls.Add(this.employerRadioBtn);
+            this.groupBox2.Controls.Add(this.employeeRadioBtn);
+            this.groupBox2.Location = new System.Drawing.Point(0, 0);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox2.Size = new System.Drawing.Size(315, 101);
+            this.groupBox2.TabIndex = 29;
+            this.groupBox2.TabStop = false;
+            // 
+            // employerRadioBtn
+            // 
+            this.employerRadioBtn.AutoSize = true;
+            this.employerRadioBtn.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.employerRadioBtn.Location = new System.Drawing.Point(8, 34);
+            this.employerRadioBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.employerRadioBtn.Name = "employerRadioBtn";
+            this.employerRadioBtn.Size = new System.Drawing.Size(127, 31);
+            this.employerRadioBtn.TabIndex = 15;
+            this.employerRadioBtn.TabStop = true;
+            this.employerRadioBtn.Text = "Employer";
+            this.employerRadioBtn.UseVisualStyleBackColor = true;
+            // 
+            // employeeRadioBtn
+            // 
+            this.employeeRadioBtn.AutoSize = true;
+            this.employeeRadioBtn.Font = new System.Drawing.Font("Roboto Slab", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.employeeRadioBtn.Location = new System.Drawing.Point(170, 34);
+            this.employeeRadioBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.employeeRadioBtn.Name = "employeeRadioBtn";
+            this.employeeRadioBtn.Size = new System.Drawing.Size(129, 31);
+            this.employeeRadioBtn.TabIndex = 16;
+            this.employeeRadioBtn.TabStop = true;
+            this.employeeRadioBtn.Text = "Employee";
+            this.employeeRadioBtn.UseVisualStyleBackColor = true;
             // 
             // employerRadioButton
             // 
@@ -202,7 +246,7 @@
             this.registerText.BackColor = System.Drawing.Color.Transparent;
             this.registerText.Font = new System.Drawing.Font("Roboto Slab Black", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.registerText.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.registerText.Location = new System.Drawing.Point(229, 23);
+            this.registerText.Location = new System.Drawing.Point(245, 26);
             this.registerText.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.registerText.Name = "registerText";
             this.registerText.Size = new System.Drawing.Size(185, 45);
@@ -214,7 +258,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.label2.Location = new System.Drawing.Point(267, 678);
+            this.label2.Location = new System.Drawing.Point(278, 678);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(100, 24);
             this.label2.TabIndex = 32;
@@ -228,7 +272,7 @@
             this.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(650, 750);
+            this.ClientSize = new System.Drawing.Size(632, 753);
             this.Controls.Add(this.label2);
             this.Controls.Add(label1);
             this.Controls.Add(this.registerText);
@@ -244,12 +288,15 @@
             this.Controls.Add(this.registerNameText);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Roboto Slab", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Register";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Register";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -270,5 +317,8 @@
         private System.Windows.Forms.TextBox registerNameText;
         private System.Windows.Forms.Label registerText;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.RadioButton employerRadioBtn;
+        private System.Windows.Forms.RadioButton employeeRadioBtn;
     }
 }

@@ -12,7 +12,7 @@ namespace MyJob
 {
     public partial class Register : Form
     {
-        Form login = new Form1();
+        Form login = new Login();
         public Register()
         {
             InitializeComponent();
@@ -22,17 +22,17 @@ namespace MyJob
         {
           
             if ((string.IsNullOrWhiteSpace(registerNameText.Text) ||
-                 string.IsNullOrWhiteSpace(registerNickNameText.Text) ||
-                 string.IsNullOrWhiteSpace(registerEmailText.Text) ||
-                 string.IsNullOrWhiteSpace(registerPasswordText.Text) ||
-                (!employeeRadioButton.Checked && !employerRadioButton.Checked)))
-                {
+                string.IsNullOrWhiteSpace(registerNickNameText.Text) ||
+                string.IsNullOrWhiteSpace(registerEmailText.Text) ||
+                string.IsNullOrWhiteSpace(registerPasswordText.Text) ) || (!employerRadioBtn.Checked && !employeeRadioBtn.Checked)
+                )
+            {
 
                     MessageBox.Show("Lütfen tüm bilgileri doldurun");
-                }
+            }
             else
             {
-                string role = employeeRadioButton.Checked ? "employee" : "employer";
+                string role = employeeRadioBtn.Checked ? "employee" : "employer";
                 bool success;
                 success = DBManagement.AddUser(registerNameText.Text, registerNickNameText.Text, registerEmailText.Text, role, registerPasswordText.Text);
                 if (success)
@@ -40,7 +40,7 @@ namespace MyJob
                     MessageBox.Show("Başarıyla Kaydolundu");
                     label2_Click(sender, e);
                     this.Hide();
-                    login.ShowDialog();
+                    login.Show();
                 }
             }
 
@@ -55,8 +55,10 @@ namespace MyJob
         {
            
             this.Hide();
-            login.ShowDialog();
+            login.Show();
 
         }
+
+        
     }
 }

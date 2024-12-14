@@ -17,23 +17,26 @@ namespace MyJob
             InitializeComponent();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
 
+        private void worker_Load(object sender, EventArgs e)
+        {
+            Dictionary<string, string> userInfos = new Dictionary<string, string>();
+            userInfos = DBManagement.getInfos("employee_table");
+            NameText.Text = userInfos["Name"];
+            NickNameText.Text = userInfos["NickName"];
+            EmailText.Text = userInfos["Email"];
+            PasswordText.Text = userInfos["Password"];
+            roleLabel.Text += userInfos["Role"];
+            EmailText.Enabled = false;
+            NickNameText.Enabled = false;
         }
 
-        private void label18_Click(object sender, EventArgs e)
+        private void updateInfoButton_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
+            DBManagement.UpdateInfos("employee_table", NameText.Text, PasswordText.Text);
+            this.Hide();
+            Employer employerForm = new Employer();
+            employerForm.ShowDialog();
 
         }
     }
