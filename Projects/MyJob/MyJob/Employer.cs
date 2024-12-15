@@ -103,6 +103,7 @@ namespace MyJob
 
         }
 
+
         private void addDaily_Click(object sender, EventArgs e)
         {
             foreach (DataGridViewRow row in employeeList.Rows)
@@ -111,9 +112,9 @@ namespace MyJob
                 {
                     string employeeNickName = row.Cells["employee_nickName"].Value.ToString();
 
-                    double dailySalary = Convert.ToDouble(row.Cells["employee_daily_wage"].Value);
+                    double amount = Convert.ToDouble(row.Cells["employee_daily_wage"].Value);
 
-                     DBManagement.UpdateEmployeesSalary(employeeNickName, dailySalary);
+                     DBManagement.UpdateEmployeesSalary(employeeNickName, amount,1);
                 }
 
             }
@@ -123,6 +124,41 @@ namespace MyJob
             
            
         }
+        private void payButton_Click(object sender, EventArgs e)
+        {
+            foreach (DataGridViewRow row in employeeList.Rows)
+            {
+                if (Convert.ToBoolean(row.Cells["Select"].Value))
+                {
+                    string employeeNickName = row.Cells["employee_nickName"].Value.ToString();
+                    double total_salary = Convert.ToDouble(row.Cells["employee_total_salary"].Value); 
+                    double amount = double.Parse(paySalaryTextBox.Text);
+
+
+                    if (total_salary < amount)
+                    {
+                        MessageBox.Show($"{employeeNickName} nickname'ine sahip işçiye olan toplam borcunuz ödediğniz bütçeden daha az!!");
+                        paySalaryTextBox.Clear();
+                        return;
+
+                    }  //ödeme yapılacak tutarı salaryboxtaki değerden al ve bunun ödeme olduğunu son parametreyi 0 olarak girerek göster.
+                    DBManagement.UpdateEmployeesSalary(employeeNickName,amount, 0);
+
+
+
+
+
+
+
+                }
+
+            }
+            Employer employerForm = new Employer();
+            this.Hide();
+            employerForm.ShowDialog();
+
+        }
+
 
         private void deleteSelectedEmp_Click(object sender, EventArgs e)
         {
@@ -133,7 +169,7 @@ namespace MyJob
                 {
                     string employeeNickName = row.Cells["employee_nickName"].Value.ToString();
 
-                    
+
 
                     DBManagement.deleteEmp(employeeNickName);
                 }
@@ -151,7 +187,9 @@ namespace MyJob
            Login loginForm = new Login();
            this.Hide();
            loginForm.ShowDialog();
-
+            DBManagement.AuthUserEmail = null;
         }
+
+       
     }
 }

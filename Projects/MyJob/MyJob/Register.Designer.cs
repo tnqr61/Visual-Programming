@@ -190,6 +190,7 @@
             this.registerPasswordText.Location = new System.Drawing.Point(167, 419);
             this.registerPasswordText.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.registerPasswordText.Name = "registerPasswordText";
+            this.registerPasswordText.PasswordChar = '*';
             this.registerPasswordText.Size = new System.Drawing.Size(308, 31);
             this.registerPasswordText.TabIndex = 23;
             // 

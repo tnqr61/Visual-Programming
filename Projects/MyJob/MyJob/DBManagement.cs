@@ -200,6 +200,7 @@ namespace MyJob
                             {
                                 reader.Close();
                                 con.Close();
+                                MessageBox.Show("Kullanıcı adı veya şifre Hatalı");
                                 return 0;
 
                             }
@@ -499,8 +500,11 @@ namespace MyJob
 
         }
 
-        public static void UpdateEmployeesSalary(string employeeNickName, double daily_salary)
+        // 0 ödeme 1 amount kadar ekleme yapmak için.
+        public static void UpdateEmployeesSalary(string employeeNickName, double amount,int payType)
         {
+            if(payType==0)
+                amount = -amount;
 
             try
             {
@@ -526,7 +530,7 @@ namespace MyJob
                             double currentSalary = Convert.ToDouble(result);
 
                             //yeni total salary değeri hesapla
-                            double newTotalSalary = currentSalary + daily_salary;
+                            double newTotalSalary = currentSalary + amount;
 
                             // Güncelleme sorgusu
                             using (SQLiteCommand updateCmd = new SQLiteCommand(addDailyQuery, conn))
@@ -591,9 +595,108 @@ namespace MyJob
 
                 return totalSalary;
         }
-       
+
+        public static double getTotalSalary()
+        {
+            try { 
+            
+                string query = @"SELECT ew.employee_total_salary
+                               FROM employers_workers ew
+                               JOIN employee_table et ON ew.employee_nickName = et.NickName
+                               WHERE et.Email = @Email";
+
+              
+                using (SQLiteConnection conn = new SQLiteConnection(connectionString))
+                {
+                    conn.Open();
+                    using (SQLiteCommand cmd = new SQLiteCommand(query, conn)) {
+                        cmd.Parameters.AddWithValue("@Email", AuthUserEmail);
+                        object result = cmd.ExecuteScalar();
+                        return (double)result;
+                    }
 
 
 
-     }
+
+                }
+
+            }
+            catch (Exception ex) 
+            {
+                MessageBox.Show(ex.Message);
+                return 0;
+            }
+            
+        }
+        public static void joinToEmployer(string employer_nickName) {
+
+            try
+            {
+                using (SQLiteConnection conn = new SQLiteConnection(connectionString))
+                {
+                    conn.Open();
+                    string employeeNickName="";
+                    string findEmployerQuery = @"SELECT NickName FROM employer_table WHERE NickName = @nickName";
+                    string findEmployeeQeery = @"SELECT NickName FROM employee_table WHERE Email = @email";
+                    string joinEmployerQuery = @"INSERT INTO employers_workers (employer_nickName, employee_nickName, employee_daily_wage, employee_monthly_wage,employee_total_salary)
+                                                 VALUES (@EmployerNickName, @EmployeeNickName, 0, 0 ,0)";
+                    //işveren kontrolü
+                    using (SQLiteCommand findCmd = new SQLiteCommand(findEmployerQuery, conn))
+                    {
+                        findCmd.CommandText = findEmployerQuery;
+                        findCmd.Parameters.AddWithValue("@nickName", employer_nickName);
+                        using (SQLiteDataReader reader = findCmd.ExecuteReader()) { 
+
+                            if (!reader.Read())
+                            {
+                                MessageBox.Show("Girilen nickName e ait işveren bulunmadı");
+                                return;
+                            } 
+                        }
+
+                    }
+
+                    //kullanıcı nickName çekme.
+                    using (SQLiteCommand findemployeeCmd = new SQLiteCommand(findEmployeeQeery, conn))
+                    {
+                        findemployeeCmd.CommandText = findEmployeeQeery;
+                        findemployeeCmd.Parameters.AddWithValue("@email", AuthUserEmail);
+                        using (SQLiteDataReader reader = findemployeeCmd.ExecuteReader())
+                        {
+
+                            while (reader.Read()) { 
+                                employeeNickName = reader["nickName"].ToString();
+
+                            }
+                        }
+
+                    }
+
+                    // işveren listesine dahil olma
+                    using (SQLiteCommand cmd = new SQLiteCommand(joinEmployerQuery, conn))
+                    {
+                        cmd.CommandText = joinEmployerQuery;
+                        cmd.Parameters.AddWithValue("@EmployerNickName", employer_nickName);
+                        cmd.Parameters.AddWithValue("@EmployeeNickName", employeeNickName);
+                        cmd.ExecuteNonQuery();
+                        MessageBox.Show("İşveren Listesine Başarıyla Dahil oldunuz.");
+
+
+
+
+                    }
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        
+        
+        }
+  
+
+    }
 }

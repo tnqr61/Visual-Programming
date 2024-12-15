@@ -30,29 +30,31 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(worker));
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.WorkertabControl = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label19 = new System.Windows.Forms.Label();
+            this.logOut2 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.totalText = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.label1 = new System.Windows.Forms.Label();
             this.myJobText = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Job = new System.Windows.Forms.TabPage();
-            this.registerButton = new System.Windows.Forms.Button();
+            this.label20 = new System.Windows.Forms.Label();
+            this.logOut = new System.Windows.Forms.PictureBox();
+            this.joinToEmployerButton = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.joinToEmployerNickNameTextBox = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.label5 = new System.Windows.Forms.Label();
+            this.logOut3 = new System.Windows.Forms.PictureBox();
             this.roleLabel = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.EmailText = new System.Windows.Forms.TextBox();
@@ -72,33 +74,18 @@
             this.entityCommand1 = new System.Data.Entity.Core.EntityClient.EntityCommand();
             this.ımageList2 = new System.Windows.Forms.ImageList(this.components);
             this.ımageList3 = new System.Windows.Forms.ImageList(this.components);
-            this.label19 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.WorkertabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logOut2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.Job.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logOut)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logOut3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
-            // contextMenuStrip2
-            // 
-            this.contextMenuStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip2.Name = "contextMenuStrip2";
-            this.contextMenuStrip2.Size = new System.Drawing.Size(61, 4);
             // 
             // WorkertabControl
             // 
@@ -110,7 +97,7 @@
             this.WorkertabControl.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.WorkertabControl.Name = "WorkertabControl";
             this.WorkertabControl.SelectedIndex = 0;
-            this.WorkertabControl.Size = new System.Drawing.Size(1183, 596);
+            this.WorkertabControl.Size = new System.Drawing.Size(1191, 609);
             this.WorkertabControl.TabIndex = 3;
             // 
             // tabPage1
@@ -118,13 +105,11 @@
             this.tabPage1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage1.BackgroundImage")));
             this.tabPage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tabPage1.Controls.Add(this.label19);
-            this.tabPage1.Controls.Add(this.pictureBox4);
+            this.tabPage1.Controls.Add(this.logOut2);
             this.tabPage1.Controls.Add(this.pictureBox2);
-            this.tabPage1.Controls.Add(this.label5);
-            this.tabPage1.Controls.Add(this.label4);
+            this.tabPage1.Controls.Add(this.totalText);
             this.tabPage1.Controls.Add(this.label3);
             this.tabPage1.Controls.Add(this.label2);
-            this.tabPage1.Controls.Add(this.monthCalendar1);
             this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Controls.Add(this.myJobText);
             this.tabPage1.Controls.Add(this.pictureBox1);
@@ -133,39 +118,49 @@
             this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.tabPage1.Size = new System.Drawing.Size(1175, 558);
+            this.tabPage1.Size = new System.Drawing.Size(1183, 571);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Account";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(1091, 528);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(84, 25);
+            this.label19.TabIndex = 44;
+            this.label19.Text = "Log out";
+            // 
+            // logOut2
+            // 
+            this.logOut2.Image = ((System.Drawing.Image)(resources.GetObject("logOut2.Image")));
+            this.logOut2.Location = new System.Drawing.Point(1117, 490);
+            this.logOut2.Name = "logOut2";
+            this.logOut2.Size = new System.Drawing.Size(35, 35);
+            this.logOut2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.logOut2.TabIndex = 43;
+            this.logOut2.TabStop = false;
+            this.logOut2.Click += new System.EventHandler(this.logOut_Click);
+            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(530, 116);
+            this.pictureBox2.Location = new System.Drawing.Point(492, 140);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(66, 43);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 8;
             this.pictureBox2.TabStop = false;
             // 
-            // label5
+            // totalText
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(602, 134);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(36, 25);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "0$";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Oswald", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(519, 259);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(251, 63);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Work Schedule";
+            this.totalText.AutoSize = true;
+            this.totalText.Location = new System.Drawing.Point(573, 158);
+            this.totalText.Name = "totalText";
+            this.totalText.Size = new System.Drawing.Size(36, 25);
+            this.totalText.TabIndex = 7;
+            this.totalText.Text = "0$";
             // 
             // label3
             // 
@@ -184,17 +179,11 @@
             this.label2.Size = new System.Drawing.Size(0, 25);
             this.label2.TabIndex = 4;
             // 
-            // monthCalendar1
-            // 
-            this.monthCalendar1.Location = new System.Drawing.Point(517, 331);
-            this.monthCalendar1.Name = "monthCalendar1";
-            this.monthCalendar1.TabIndex = 3;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Oswald", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(519, 35);
+            this.label1.Location = new System.Drawing.Point(481, 22);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(206, 63);
             this.label1.TabIndex = 2;
@@ -215,7 +204,7 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(40, 140);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(400, 400);
+            this.pictureBox1.Size = new System.Drawing.Size(386, 388);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -224,10 +213,10 @@
             // 
             this.Job.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Job.BackgroundImage")));
             this.Job.Controls.Add(this.label20);
-            this.Job.Controls.Add(this.pictureBox6);
-            this.Job.Controls.Add(this.registerButton);
+            this.Job.Controls.Add(this.logOut);
+            this.Job.Controls.Add(this.joinToEmployerButton);
             this.Job.Controls.Add(this.pictureBox3);
-            this.Job.Controls.Add(this.textBox1);
+            this.Job.Controls.Add(this.joinToEmployerNickNameTextBox);
             this.Job.Controls.Add(this.label6);
             this.Job.Controls.Add(this.label8);
             this.Job.Controls.Add(this.label9);
@@ -238,22 +227,43 @@
             this.Job.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Job.Name = "Job";
             this.Job.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Job.Size = new System.Drawing.Size(1175, 558);
+            this.Job.Size = new System.Drawing.Size(1183, 571);
             this.Job.TabIndex = 1;
             this.Job.Text = "Job";
             this.Job.UseVisualStyleBackColor = true;
             // 
-            // registerButton
+            // label20
             // 
-            this.registerButton.BackColor = System.Drawing.Color.Transparent;
-            this.registerButton.Font = new System.Drawing.Font("Roboto Slab", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.registerButton.Location = new System.Drawing.Point(540, 296);
-            this.registerButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.registerButton.Name = "registerButton";
-            this.registerButton.Size = new System.Drawing.Size(168, 74);
-            this.registerButton.TabIndex = 23;
-            this.registerButton.Text = "JOIN";
-            this.registerButton.UseVisualStyleBackColor = false;
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(1096, 543);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(84, 25);
+            this.label20.TabIndex = 46;
+            this.label20.Text = "Log out";
+            // 
+            // logOut
+            // 
+            this.logOut.Image = ((System.Drawing.Image)(resources.GetObject("logOut.Image")));
+            this.logOut.Location = new System.Drawing.Point(1122, 505);
+            this.logOut.Name = "logOut";
+            this.logOut.Size = new System.Drawing.Size(35, 35);
+            this.logOut.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.logOut.TabIndex = 45;
+            this.logOut.TabStop = false;
+            this.logOut.Click += new System.EventHandler(this.logOut_Click);
+            // 
+            // joinToEmployerButton
+            // 
+            this.joinToEmployerButton.BackColor = System.Drawing.Color.Transparent;
+            this.joinToEmployerButton.Font = new System.Drawing.Font("Roboto Slab", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.joinToEmployerButton.Location = new System.Drawing.Point(540, 296);
+            this.joinToEmployerButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.joinToEmployerButton.Name = "joinToEmployerButton";
+            this.joinToEmployerButton.Size = new System.Drawing.Size(168, 74);
+            this.joinToEmployerButton.TabIndex = 23;
+            this.joinToEmployerButton.Text = "JOIN";
+            this.joinToEmployerButton.UseVisualStyleBackColor = false;
+            this.joinToEmployerButton.Click += new System.EventHandler(this.joinToEmployerButton_Click);
             // 
             // pictureBox3
             // 
@@ -265,12 +275,12 @@
             this.pictureBox3.TabIndex = 18;
             this.pictureBox3.TabStop = false;
             // 
-            // textBox1
+            // joinToEmployerNickNameTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(540, 240);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(344, 30);
-            this.textBox1.TabIndex = 17;
+            this.joinToEmployerNickNameTextBox.Location = new System.Drawing.Point(540, 240);
+            this.joinToEmployerNickNameTextBox.Name = "joinToEmployerNickNameTextBox";
+            this.joinToEmployerNickNameTextBox.Size = new System.Drawing.Size(344, 30);
+            this.joinToEmployerNickNameTextBox.TabIndex = 17;
             // 
             // label6
             // 
@@ -323,6 +333,8 @@
             // tabPage3
             // 
             this.tabPage3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage3.BackgroundImage")));
+            this.tabPage3.Controls.Add(this.label5);
+            this.tabPage3.Controls.Add(this.logOut3);
             this.tabPage3.Controls.Add(this.roleLabel);
             this.tabPage3.Controls.Add(this.label7);
             this.tabPage3.Controls.Add(this.EmailText);
@@ -341,10 +353,30 @@
             this.tabPage3.ImageIndex = 1;
             this.tabPage3.Location = new System.Drawing.Point(4, 34);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(1175, 558);
+            this.tabPage3.Size = new System.Drawing.Size(1183, 571);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Settings";
             this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(1101, 543);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(84, 25);
+            this.label5.TabIndex = 48;
+            this.label5.Text = "Log out";
+            // 
+            // logOut3
+            // 
+            this.logOut3.Image = ((System.Drawing.Image)(resources.GetObject("logOut3.Image")));
+            this.logOut3.Location = new System.Drawing.Point(1127, 505);
+            this.logOut3.Name = "logOut3";
+            this.logOut3.Size = new System.Drawing.Size(35, 35);
+            this.logOut3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.logOut3.TabIndex = 47;
+            this.logOut3.TabStop = false;
+            this.logOut3.Click += new System.EventHandler(this.logOut_Click);
             // 
             // roleLabel
             // 
@@ -405,11 +437,13 @@
             // PasswordText
             // 
             this.PasswordText.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.PasswordText.Font = new System.Drawing.Font("Lucida Bright", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PasswordText.Font = new System.Drawing.Font("Arial Narrow", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PasswordText.ForeColor = System.Drawing.SystemColors.MenuText;
             this.PasswordText.Location = new System.Drawing.Point(859, 235);
             this.PasswordText.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.PasswordText.Name = "PasswordText";
-            this.PasswordText.Size = new System.Drawing.Size(285, 29);
+            this.PasswordText.PasswordChar = '*';
+            this.PasswordText.Size = new System.Drawing.Size(285, 28);
             this.PasswordText.TabIndex = 33;
             // 
             // updateInfoButton
@@ -452,12 +486,12 @@
             // NameText
             // 
             this.NameText.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.NameText.Font = new System.Drawing.Font("Lucida Bright", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NameText.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.NameText.Font = new System.Drawing.Font("Arial Narrow", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NameText.ForeColor = System.Drawing.SystemColors.MenuText;
             this.NameText.Location = new System.Drawing.Point(500, 155);
             this.NameText.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.NameText.Name = "NameText";
-            this.NameText.Size = new System.Drawing.Size(286, 29);
+            this.NameText.Size = new System.Drawing.Size(286, 28);
             this.NameText.TabIndex = 29;
             // 
             // label13
@@ -537,44 +571,6 @@
             this.ımageList3.ImageSize = new System.Drawing.Size(16, 16);
             this.ımageList3.TransparentColor = System.Drawing.Color.Transparent;
             // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(1094, 543);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(84, 25);
-            this.label19.TabIndex = 44;
-            this.label19.Text = "Log out";
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(1120, 505);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(35, 35);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 43;
-            this.pictureBox4.TabStop = false;
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(1096, 543);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(84, 25);
-            this.label20.TabIndex = 46;
-            this.label20.Text = "Log out";
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(1122, 505);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(35, 35);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 45;
-            this.pictureBox6.TabStop = false;
-            // 
             // worker
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 25F);
@@ -591,23 +587,22 @@
             this.WorkertabControl.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logOut2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.Job.ResumeLayout(false);
             this.Job.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logOut)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logOut3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
         private System.Windows.Forms.TabControl WorkertabControl;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage Job;
@@ -616,21 +611,19 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label myJobText;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.MonthCalendar monthCalendar1;
         private System.Data.Entity.Core.EntityClient.EntityCommand entityCommand1;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label totalText;
+        private System.Windows.Forms.TextBox joinToEmployerNickNameTextBox;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Button registerButton;
+        private System.Windows.Forms.Button joinToEmployerButton;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
@@ -649,8 +642,10 @@
         private System.Windows.Forms.ImageList ımageList3;
         private System.Windows.Forms.Label roleLabel;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox logOut2;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox logOut;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.PictureBox logOut3;
     }
 }
