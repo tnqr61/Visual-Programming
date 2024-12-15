@@ -3,19 +3,7 @@
   "WorkspaceRootPath": "B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB5AFC1A-E812-46F7-918D-6FC9609F5BCB}|MyJob\\MyJob.csproj|B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\myjob\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB5AFC1A-E812-46F7-918D-6FC9609F5BCB}|MyJob\\MyJob.csproj|solutionrelative:myjob\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB5AFC1A-E812-46F7-918D-6FC9609F5BCB}|MyJob\\MyJob.csproj|B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\myjob\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BB5AFC1A-E812-46F7-918D-6FC9609F5BCB}|MyJob\\MyJob.csproj|solutionrelative:myjob\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB5AFC1A-E812-46F7-918D-6FC9609F5BCB}|MyJob\\MyJob.csproj|B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\myjob\\dbmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB5AFC1A-E812-46F7-918D-6FC9609F5BCB}|MyJob\\MyJob.csproj|solutionrelative:myjob\\dbmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB5AFC1A-E812-46F7-918D-6FC9609F5BCB}|MyJob\\MyJob.csproj|b:\\githubrepositories\\visual-programming\\projects\\myjob\\myjob\\employer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{BB5AFC1A-E812-46F7-918D-6FC9609F5BCB}|MyJob\\MyJob.csproj|B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\myjob\\employer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BB5AFC1A-E812-46F7-918D-6FC9609F5BCB}|MyJob\\MyJob.csproj|solutionrelative:myjob\\employer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -27,24 +15,32 @@
       "RelativeMoniker": "D:0:0:{BB5AFC1A-E812-46F7-918D-6FC9609F5BCB}|MyJob\\MyJob.csproj|solutionrelative:myjob\\register.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BB5AFC1A-E812-46F7-918D-6FC9609F5BCB}|MyJob\\MyJob.csproj|b:\\githubrepositories\\visual-programming\\projects\\myjob\\myjob\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5AFC1A-E812-46F7-918D-6FC9609F5BCB}|MyJob\\MyJob.csproj|solutionrelative:myjob\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5AFC1A-E812-46F7-918D-6FC9609F5BCB}|MyJob\\MyJob.csproj|B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\myjob\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BB5AFC1A-E812-46F7-918D-6FC9609F5BCB}|MyJob\\MyJob.csproj|solutionrelative:myjob\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BB5AFC1A-E812-46F7-918D-6FC9609F5BCB}|MyJob\\MyJob.csproj|B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\myjob\\employer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB5AFC1A-E812-46F7-918D-6FC9609F5BCB}|MyJob\\MyJob.csproj|solutionrelative:myjob\\employer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5AFC1A-E812-46F7-918D-6FC9609F5BCB}|MyJob\\MyJob.csproj|B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\myjob\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BB5AFC1A-E812-46F7-918D-6FC9609F5BCB}|MyJob\\MyJob.csproj|solutionrelative:myjob\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5AFC1A-E812-46F7-918D-6FC9609F5BCB}|MyJob\\MyJob.csproj|B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\myjob\\dbmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5AFC1A-E812-46F7-918D-6FC9609F5BCB}|MyJob\\MyJob.csproj|solutionrelative:myjob\\dbmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB5AFC1A-E812-46F7-918D-6FC9609F5BCB}|MyJob\\MyJob.csproj|B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\myjob\\worker.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB5AFC1A-E812-46F7-918D-6FC9609F5BCB}|MyJob\\MyJob.csproj|solutionrelative:myjob\\worker.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB5AFC1A-E812-46F7-918D-6FC9609F5BCB}|MyJob\\MyJob.csproj|B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\myjob\\employer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB5AFC1A-E812-46F7-918D-6FC9609F5BCB}|MyJob\\MyJob.csproj|solutionrelative:myjob\\employer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BB5AFC1A-E812-46F7-918D-6FC9609F5BCB}|MyJob\\MyJob.csproj|B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\myjob\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB5AFC1A-E812-46F7-918D-6FC9609F5BCB}|MyJob\\MyJob.csproj|solutionrelative:myjob\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB5AFC1A-E812-46F7-918D-6FC9609F5BCB}|MyJob\\MyJob.csproj|B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\myjob\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BB5AFC1A-E812-46F7-918D-6FC9609F5BCB}|MyJob\\MyJob.csproj|solutionrelative:myjob\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB5AFC1A-E812-46F7-918D-6FC9609F5BCB}|MyJob\\MyJob.csproj|B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\myjob\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,11 +57,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "DBManagement.cs",
               "DocumentMoniker": "B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\MyJob\\DBManagement.cs",
               "RelativeDocumentMoniker": "MyJob\\DBManagement.cs",
@@ -74,12 +70,11 @@
               "ViewState": "AgIAALgAAAAAAAAAAAAgwG4BAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T13:34:11.32Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Employer.cs [Design]",
               "DocumentMoniker": "B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\MyJob\\Employer.cs",
               "RelativeDocumentMoniker": "MyJob\\Employer.cs",
@@ -92,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "worker.cs [Design]",
               "DocumentMoniker": "B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\MyJob\\worker.cs",
               "RelativeDocumentMoniker": "MyJob\\worker.cs",
@@ -113,30 +108,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\MyJob\\Form1.cs",
               "RelativeDocumentMoniker": "MyJob\\Form1.cs",
               "ToolTip": "B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\MyJob\\Form1.cs [Design]",
               "RelativeToolTip": "MyJob\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T14:32:25.836Z"
+              "WhenOpened": "2024-12-01T14:32:25.836Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Employer.cs",
               "DocumentMoniker": "B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\MyJob\\Employer.cs",
               "RelativeDocumentMoniker": "MyJob\\Employer.cs",
               "ToolTip": "B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\MyJob\\Employer.cs",
               "RelativeToolTip": "MyJob\\Employer.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T17:51:11.144Z"
+              "WhenOpened": "2024-12-11T17:51:11.144Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "Register.cs",
               "DocumentMoniker": "B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\MyJob\\Register.cs",
               "RelativeDocumentMoniker": "MyJob\\Register.cs",
@@ -144,11 +141,12 @@
               "RelativeToolTip": "MyJob\\Register.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAUwD0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T20:50:58.489Z"
+              "WhenOpened": "2024-12-10T20:50:58.489Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Register.Designer.cs",
               "DocumentMoniker": "B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\MyJob\\Register.Designer.cs",
               "RelativeDocumentMoniker": "MyJob\\Register.Designer.cs",
@@ -156,43 +154,33 @@
               "RelativeToolTip": "MyJob\\Register.Designer.cs",
               "ViewState": "AgIAAOoAAAAAAAAAAAAcwP8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T22:35:49.308Z"
+              "WhenOpened": "2024-12-13T22:35:49.308Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "worker.cs",
               "DocumentMoniker": "B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\MyJob\\worker.cs",
               "RelativeDocumentMoniker": "MyJob\\worker.cs",
               "ToolTip": "B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\MyJob\\worker.cs",
               "RelativeToolTip": "MyJob\\worker.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T18:48:35.36Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Register.cs [Design]",
               "DocumentMoniker": "B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\MyJob\\Register.cs",
               "RelativeDocumentMoniker": "MyJob\\Register.cs",
               "ToolTip": "B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\MyJob\\Register.cs [Design]",
               "RelativeToolTip": "MyJob\\Register.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T20:43:30.212Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Employer.Designer.cs",
-              "DocumentMoniker": "B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\MyJob\\Employer.Designer.cs",
-              "RelativeDocumentMoniker": "MyJob\\Employer.Designer.cs",
-              "ToolTip": "B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\MyJob\\Employer.Designer.cs",
-              "RelativeToolTip": "MyJob\\Employer.Designer.cs",
-              "ViewState": "AgIAALIAAAAAAAAAAAAEwMgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T21:11:31.568Z"
+              "WhenOpened": "2024-12-10T20:43:30.212Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -204,11 +192,12 @@
               "RelativeToolTip": "MyJob\\Form1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T00:08:43.719Z"
+              "WhenOpened": "2024-12-14T00:08:43.719Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "worker.Designer.cs",
               "DocumentMoniker": "B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\MyJob\\worker.Designer.cs",
               "RelativeDocumentMoniker": "MyJob\\worker.Designer.cs",
@@ -216,12 +205,11 @@
               "RelativeToolTip": "MyJob\\worker.Designer.cs",
               "ViewState": "AgIAADkCAAAAAAAAAAAEwD0CAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T18:48:52.91Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T18:48:52.91Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "MyJob",
               "DocumentMoniker": "B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\MyJob\\MyJob.csproj",
               "RelativeDocumentMoniker": "MyJob\\MyJob.csproj",
