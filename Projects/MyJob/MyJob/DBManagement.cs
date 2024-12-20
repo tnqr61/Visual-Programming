@@ -23,6 +23,9 @@ namespace MyJob
     {
         public static readonly string dbFileName = "MyJOB.db";
         public static readonly string connectionString = $"Data source={dbFileName}";
+
+
+        //giriş yapan kullanıcın email bilgisi bir değişkende tutuluyor.
         public static string AuthUserEmail = "";
         public static DataSet employeesDataSet = new DataSet();
              
@@ -696,6 +699,7 @@ namespace MyJob
         
         
         }
+
   
 
     }

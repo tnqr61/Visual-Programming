@@ -63,5 +63,7 @@ namespace MyJob
             loginForm.ShowDialog();
             DBManagement.AuthUserEmail=null;
         }
+
+        
     }
 }
