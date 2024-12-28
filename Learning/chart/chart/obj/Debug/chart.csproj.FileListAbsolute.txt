@@ -1,0 +1,10 @@
+B:\GitHubRepositories\Visual-Programming\Learning\chart\chart\bin\Debug\chart.exe.config
+B:\GitHubRepositories\Visual-Programming\Learning\chart\chart\bin\Debug\chart.exe
+B:\GitHubRepositories\Visual-Programming\Learning\chart\chart\bin\Debug\chart.pdb
+B:\GitHubRepositories\Visual-Programming\Learning\chart\chart\obj\Debug\chart.csproj.AssemblyReference.cache
+B:\GitHubRepositories\Visual-Programming\Learning\chart\chart\obj\Debug\chart.Form1.resources
+B:\GitHubRepositories\Visual-Programming\Learning\chart\chart\obj\Debug\chart.Properties.Resources.resources
+B:\GitHubRepositories\Visual-Programming\Learning\chart\chart\obj\Debug\chart.csproj.GenerateResource.cache
+B:\GitHubRepositories\Visual-Programming\Learning\chart\chart\obj\Debug\chart.csproj.CoreCompileInputs.cache
+B:\GitHubRepositories\Visual-Programming\Learning\chart\chart\obj\Debug\chart.exe
+B:\GitHubRepositories\Visual-Programming\Learning\chart\chart\obj\Debug\chart.pdb
