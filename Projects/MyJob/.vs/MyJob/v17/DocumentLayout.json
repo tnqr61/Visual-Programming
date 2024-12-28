@@ -59,7 +59,7 @@
               "RelativeDocumentMoniker": "MyJob\\DBManagement.cs",
               "ToolTip": "B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\MyJob\\DBManagement.cs",
               "RelativeToolTip": "MyJob\\DBManagement.cs",
-              "ViewState": "AgIAAHUBAAAAAAAAAAAwwIMBAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAF8BAAAAAAAAAAAIwIMBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T13:34:11.32Z",
               "IsPinned": true,
@@ -75,8 +75,7 @@
               "RelativeToolTip": "MyJob\\Employer.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T13:13:35.213Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -95,8 +94,7 @@
               "ToolTip": "B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\MyJob\\worker.cs [Design]",
               "RelativeToolTip": "MyJob\\worker.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T11:11:26.371Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-11T11:11:26.371Z"
             },
             {
               "$type": "Document",
@@ -107,8 +105,7 @@
               "ToolTip": "B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\MyJob\\Form1.cs [Design]",
               "RelativeToolTip": "MyJob\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T14:32:25.836Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-01T14:32:25.836Z"
             },
             {
               "$type": "Document",
@@ -120,8 +117,7 @@
               "RelativeToolTip": "MyJob\\Form1.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAuwB4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T00:08:43.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T00:08:43.719Z"
             },
             {
               "$type": "Document",
@@ -133,8 +129,7 @@
               "RelativeToolTip": "MyJob\\Employer.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAAwDwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T17:51:11.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T17:51:11.144Z"
             },
             {
               "$type": "Document",
@@ -146,8 +141,7 @@
               "RelativeToolTip": "MyJob\\worker.Designer.cs",
               "ViewState": "AgIAAKgBAAAAAAAAAAAQwL8BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T18:48:52.91Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T18:48:52.91Z"
             },
             {
               "$type": "Document",
@@ -159,8 +153,7 @@
               "RelativeToolTip": "MyJob\\Register.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAUwD0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T20:50:58.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T20:50:58.489Z"
             },
             {
               "$type": "Document",
@@ -171,8 +164,7 @@
               "ToolTip": "B:\\GitHubRepositories\\Visual-Programming\\Projects\\MyJob\\MyJob\\Register.cs [Design]",
               "RelativeToolTip": "MyJob\\Register.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T20:43:30.212Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-10T20:43:30.212Z"
             },
             {
               "$type": "Document",
