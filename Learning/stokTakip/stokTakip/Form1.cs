@@ -94,5 +94,13 @@ namespace stokTakip
 
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form form = new listForm();
+            form.Show();
+            this.Hide();
+
+        }
     }
 }

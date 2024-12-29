@@ -30,6 +30,7 @@
         {
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.actions = new System.Windows.Forms.DataGridViewButtonColumn();
             this.listView1 = new System.Windows.Forms.ListView();
             this.update = new System.Windows.Forms.Button();
             this.delete = new System.Windows.Forms.Button();
@@ -51,12 +52,23 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.actions});
             this.dataGridView1.Location = new System.Drawing.Point(269, 68);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(240, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(438, 150);
             this.dataGridView1.TabIndex = 1;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            // 
+            // actions
+            // 
+            this.actions.HeaderText = "actions";
+            this.actions.MinimumWidth = 6;
+            this.actions.Name = "actions";
+            this.actions.Width = 125;
             // 
             // listView1
             // 
@@ -69,7 +81,7 @@
             // 
             // update
             // 
-            this.update.Location = new System.Drawing.Point(597, 78);
+            this.update.Location = new System.Drawing.Point(713, 111);
             this.update.Name = "update";
             this.update.Size = new System.Drawing.Size(75, 23);
             this.update.TabIndex = 3;
@@ -78,7 +90,7 @@
             // 
             // delete
             // 
-            this.delete.Location = new System.Drawing.Point(597, 139);
+            this.delete.Location = new System.Drawing.Point(713, 238);
             this.delete.Name = "delete";
             this.delete.Size = new System.Drawing.Size(75, 23);
             this.delete.TabIndex = 4;
@@ -127,6 +139,7 @@
             this.Controls.Add(this.listBox1);
             this.Name = "listForm";
             this.Text = "listForm";
+            this.Load += new System.EventHandler(this.listForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -143,5 +156,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.DataGridViewButtonColumn actions;
     }
 }
