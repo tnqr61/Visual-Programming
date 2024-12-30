@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{7F61BAC7-597E-4E1B-BDD5-B6DF763414D9}|stokTakip\\stokTakip.csproj|solutionrelative:stoktakip\\listform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F61BAC7-597E-4E1B-BDD5-B6DF763414D9}|stokTakip\\stokTakip.csproj|b:\\githubrepositories\\visual-programming\\learning\\stoktakip\\stoktakip\\listform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7F61BAC7-597E-4E1B-BDD5-B6DF763414D9}|stokTakip\\stokTakip.csproj|B:\\GitHubRepositories\\Visual-Programming\\Learning\\stokTakip\\stoktakip\\listform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7F61BAC7-597E-4E1B-BDD5-B6DF763414D9}|stokTakip\\stokTakip.csproj|solutionrelative:stoktakip\\listform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -15,16 +15,20 @@
       "RelativeMoniker": "D:0:0:{7F61BAC7-597E-4E1B-BDD5-B6DF763414D9}|stokTakip\\stokTakip.csproj|solutionrelative:stoktakip\\listform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7F61BAC7-597E-4E1B-BDD5-B6DF763414D9}|stokTakip\\stokTakip.csproj|b:\\githubrepositories\\visual-programming\\learning\\stoktakip\\stoktakip\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F61BAC7-597E-4E1B-BDD5-B6DF763414D9}|stokTakip\\stokTakip.csproj|solutionrelative:stoktakip\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7F61BAC7-597E-4E1B-BDD5-B6DF763414D9}|stokTakip\\stokTakip.csproj|B:\\GitHubRepositories\\Visual-Programming\\Learning\\stokTakip\\stoktakip\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7F61BAC7-597E-4E1B-BDD5-B6DF763414D9}|stokTakip\\stokTakip.csproj|solutionrelative:stoktakip\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F61BAC7-597E-4E1B-BDD5-B6DF763414D9}|stokTakip\\stokTakip.csproj|B:\\GitHubRepositories\\Visual-Programming\\Learning\\stokTakip\\stoktakip\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F61BAC7-597E-4E1B-BDD5-B6DF763414D9}|stokTakip\\stokTakip.csproj|solutionrelative:stoktakip\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7F61BAC7-597E-4E1B-BDD5-B6DF763414D9}|stokTakip\\stokTakip.csproj|B:\\GitHubRepositories\\Visual-Programming\\Learning\\stokTakip\\stoktakip\\grafik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7F61BAC7-597E-4E1B-BDD5-B6DF763414D9}|stokTakip\\stokTakip.csproj|solutionrelative:stoktakip\\grafik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F61BAC7-597E-4E1B-BDD5-B6DF763414D9}|stokTakip\\stokTakip.csproj|B:\\GitHubRepositories\\Visual-Programming\\Learning\\stokTakip\\stoktakip\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F61BAC7-597E-4E1B-BDD5-B6DF763414D9}|stokTakip\\stokTakip.csproj|solutionrelative:stoktakip\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F61BAC7-597E-4E1B-BDD5-B6DF763414D9}|stokTakip\\stokTakip.csproj|B:\\GitHubRepositories\\Visual-Programming\\Learning\\stokTakip\\stoktakip\\grafik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -48,7 +52,7 @@
               "RelativeDocumentMoniker": "stokTakip\\listForm.cs",
               "ToolTip": "B:\\GitHubRepositories\\Visual-Programming\\Learning\\stokTakip\\stokTakip\\listForm.cs",
               "RelativeToolTip": "stokTakip\\listForm.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAIAwwEEAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAADgv18AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-29T17:00:43.002Z",
               "IsPinned": true,
@@ -56,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "B:\\GitHubRepositories\\Visual-Programming\\Learning\\stokTakip\\stokTakip\\Form1.cs",
               "RelativeDocumentMoniker": "stokTakip\\Form1.cs",
@@ -81,15 +85,28 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "B:\\GitHubRepositories\\Visual-Programming\\Learning\\stokTakip\\stokTakip\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "stokTakip\\Form1.Designer.cs",
+              "ToolTip": "B:\\GitHubRepositories\\Visual-Programming\\Learning\\stokTakip\\stokTakip\\Form1.Designer.cs",
+              "RelativeToolTip": "stokTakip\\Form1.Designer.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAEwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T19:44:22.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "listForm.Designer.cs",
               "DocumentMoniker": "B:\\GitHubRepositories\\Visual-Programming\\Learning\\stokTakip\\stokTakip\\listForm.Designer.cs",
               "RelativeDocumentMoniker": "stokTakip\\listForm.Designer.cs",
               "ToolTip": "B:\\GitHubRepositories\\Visual-Programming\\Learning\\stokTakip\\stokTakip\\listForm.Designer.cs",
               "RelativeToolTip": "stokTakip\\listForm.Designer.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAD4v0cAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAEwEAAAACHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T17:39:14.778Z",
+              "WhenOpened": "2024-12-29T19:36:18.42Z",
               "EditorCaption": ""
             },
             {
@@ -106,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "grafik.cs",
               "DocumentMoniker": "B:\\GitHubRepositories\\Visual-Programming\\Learning\\stokTakip\\stokTakip\\grafik.cs",
               "RelativeDocumentMoniker": "stokTakip\\grafik.cs",
@@ -131,13 +148,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Form1.cs",
               "DocumentMoniker": "B:\\GitHubRepositories\\Visual-Programming\\Learning\\stokTakip\\stokTakip\\Form1.cs",
               "RelativeDocumentMoniker": "stokTakip\\Form1.cs",
               "ToolTip": "B:\\GitHubRepositories\\Visual-Programming\\Learning\\stokTakip\\stokTakip\\Form1.cs",
               "RelativeToolTip": "stokTakip\\Form1.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAtwGUAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAEwGkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-28T18:46:47.876Z",
               "EditorCaption": ""

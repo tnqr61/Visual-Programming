@@ -1,0 +1,10 @@
+B:\GitHubRepositories\Visual-Programming\Learning\finalExam1\finalExam1\bin\Debug\finalExam1.exe.config
+B:\GitHubRepositories\Visual-Programming\Learning\finalExam1\finalExam1\bin\Debug\finalExam1.exe
+B:\GitHubRepositories\Visual-Programming\Learning\finalExam1\finalExam1\bin\Debug\finalExam1.pdb
+B:\GitHubRepositories\Visual-Programming\Learning\finalExam1\finalExam1\obj\Debug\finalExam1.csproj.AssemblyReference.cache
+B:\GitHubRepositories\Visual-Programming\Learning\finalExam1\finalExam1\obj\Debug\finalExam1.Form1.resources
+B:\GitHubRepositories\Visual-Programming\Learning\finalExam1\finalExam1\obj\Debug\finalExam1.Properties.Resources.resources
+B:\GitHubRepositories\Visual-Programming\Learning\finalExam1\finalExam1\obj\Debug\finalExam1.csproj.GenerateResource.cache
+B:\GitHubRepositories\Visual-Programming\Learning\finalExam1\finalExam1\obj\Debug\finalExam1.csproj.CoreCompileInputs.cache
+B:\GitHubRepositories\Visual-Programming\Learning\finalExam1\finalExam1\obj\Debug\finalExam1.exe
+B:\GitHubRepositories\Visual-Programming\Learning\finalExam1\finalExam1\obj\Debug\finalExam1.pdb

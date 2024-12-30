@@ -1,0 +1,10 @@
+B:\GitHubRepositories\Visual-Programming\Learning\listBox\listBox\bin\Debug\listBox.exe.config
+B:\GitHubRepositories\Visual-Programming\Learning\listBox\listBox\bin\Debug\listBox.exe
+B:\GitHubRepositories\Visual-Programming\Learning\listBox\listBox\bin\Debug\listBox.pdb
+B:\GitHubRepositories\Visual-Programming\Learning\listBox\listBox\obj\Debug\listBox.csproj.AssemblyReference.cache
+B:\GitHubRepositories\Visual-Programming\Learning\listBox\listBox\obj\Debug\listBox.Form1.resources
+B:\GitHubRepositories\Visual-Programming\Learning\listBox\listBox\obj\Debug\listBox.Properties.Resources.resources
+B:\GitHubRepositories\Visual-Programming\Learning\listBox\listBox\obj\Debug\listBox.csproj.GenerateResource.cache
+B:\GitHubRepositories\Visual-Programming\Learning\listBox\listBox\obj\Debug\listBox.csproj.CoreCompileInputs.cache
+B:\GitHubRepositories\Visual-Programming\Learning\listBox\listBox\obj\Debug\listBox.exe
+B:\GitHubRepositories\Visual-Programming\Learning\listBox\listBox\obj\Debug\listBox.pdb

@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.SQLite;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -22,11 +23,13 @@ namespace stokTakip
             dbName = "stok.db";
             conString = $"Data Source={dbName}";
 
+            
+
         }
+
 
         private void listForm_Load(object sender, EventArgs e)
         {
-            LoadInfoToDataSet();
             
 
         }
@@ -48,6 +51,7 @@ namespace stokTakip
                     adapter.Fill(ds, "stok_table");
 
                     dataGridView1.DataSource = ds.Tables["stok_table"];
+                    
 
                     // DataGridView'e tabloyu bağla
                  
@@ -58,6 +62,34 @@ namespace stokTakip
                 MessageBox.Show("Veri yükleme sırasında bir hata oluştu:\n" + ex.Message, "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+
+      /*  private void LoadData()
+        {
+            try
+
+            {
+                using (SQLiteConnection con = new SQLiteConnection(conString)) {
+                    con.Open();
+                    string query = "Select * From stok_table";
+
+                    SQLiteDataAdapter adapter = new SQLiteDataAdapter(query, con);
+
+                    DataSet dataset = new DataSet();
+
+                    adapter.Fill(dataset,"stok_table");
+
+                    dataGridView1.DataSource = dataset.Tables["stok_table"];
+
+
+
+                }
+
+            }
+            catch (Exception ex) {
+
+            }
+        }*/
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -86,6 +118,19 @@ namespace stokTakip
 
         }
 
-      
+        private void Show_Click(object sender, EventArgs e)
+        {
+
+            LoadInfoToDataSet();
+
+
+        }
+
+
+        private void update_Click(object sender, EventArgs e)
+        {
+
+
+        }
     }
 }

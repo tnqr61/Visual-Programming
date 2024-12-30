@@ -102,5 +102,7 @@ namespace stokTakip
             this.Hide();
 
         }
+
+       
     }
 }
